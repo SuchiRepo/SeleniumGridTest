@@ -27,11 +27,11 @@ public class SeleniumGridTest {
         nodeUrl="http://192.168.0.16:5566/wd/hub";
         DesiredCapabilities capabilities=DesiredCapabilities.chrome();
         capabilities.setBrowserName("chrome");
-        ChromeOptions options = new ChromeOptions();
+       /* ChromeOptions options = new ChromeOptions();
         options.addArguments("test-type");
         options.addArguments("--disable-extensions");
        // capabilities.setCapability("chrome.binary","<<your chrome path>>");
-        capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+        capabilities.setCapability(ChromeOptions.CAPABILITY, options);*/
         //capabilities.setVersion("43.0.1");
         //capabilities.setCapability("marionette", true);
         capabilities.setPlatform(Platform.ANY);
